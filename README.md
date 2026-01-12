@@ -1,7 +1,7 @@
 # 🎬 Lights, Camera, Analytics!
 ## Film Production Trends Analysis
 
-![Project Banner](/Users/sophyfigaroa/Documents/Pomona College/Spring 2025/CS180_DataVisualization/Final Project Film Production Analytics/ReadMeImage.png)
+![Project Banner](ReadMeImage.png)
 <!-- Replace the path above with your actual banner image -->
 
 ---

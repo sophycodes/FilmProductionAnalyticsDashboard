@@ -47,3 +47,35 @@
 2026-01-12 11:20:27,596 - INFO - Performing data quality validation...
 2026-01-12 11:20:27,597 - WARNING - Unusually long runtime detected: 338.0 minutes
 2026-01-12 11:20:27,597 - INFO - Data validation complete
+2026-01-12 12:51:51,494 - INFO - Converted budget to numeric (with NaN values)
+2026-01-12 12:51:51,495 - INFO - Converted revenue to numeric (with NaN values)
+2026-01-12 12:51:51,495 - INFO - Converted vote_count to numeric (with NaN values)
+2026-01-12 12:51:51,495 - INFO - Converted popularity to float64 (with NaN values)
+2026-01-12 12:51:51,495 - INFO - Converted runtime to float64 (with NaN values)
+2026-01-12 12:51:51,495 - INFO - Converted vote_average to float64 (with NaN values)
+2026-01-12 12:51:51,498 - INFO - Converted release_date to datetime
+2026-01-12 12:51:51,503 - INFO - Cleaned original_title - filled NaN and stripped whitespace
+2026-01-12 12:51:51,507 - INFO - Cleaned title - filled NaN and stripped whitespace
+2026-01-12 12:51:51,509 - INFO - Cleaned original_language - filled NaN and stripped whitespace
+2026-01-12 12:51:51,512 - INFO - Cleaned status - filled NaN and stripped whitespace
+2026-01-12 12:51:51,516 - INFO - Cleaned director - filled NaN and stripped whitespace
+2026-01-12 12:51:51,578 - INFO - Performing data quality validation...
+2026-01-12 12:51:51,578 - WARNING - Unusually long runtime detected: 338.0 minutes
+2026-01-12 12:51:51,578 - INFO - Data validation complete
+2026-01-12 12:51:51,615 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2026-01-12 12:51:53,020 - INFO - Converted budget to numeric (with NaN values)
+2026-01-12 12:51:53,021 - INFO - Converted revenue to numeric (with NaN values)
+2026-01-12 12:51:53,021 - INFO - Converted vote_count to numeric (with NaN values)
+2026-01-12 12:51:53,021 - INFO - Converted popularity to float64 (with NaN values)
+2026-01-12 12:51:53,021 - INFO - Converted runtime to float64 (with NaN values)
+2026-01-12 12:51:53,021 - INFO - Converted vote_average to float64 (with NaN values)
+2026-01-12 12:51:53,022 - INFO - Converted release_date to datetime
+2026-01-12 12:51:53,026 - INFO - Cleaned original_title - filled NaN and stripped whitespace
+2026-01-12 12:51:53,030 - INFO - Cleaned title - filled NaN and stripped whitespace
+2026-01-12 12:51:53,032 - INFO - Cleaned original_language - filled NaN and stripped whitespace
+2026-01-12 12:51:53,034 - INFO - Cleaned status - filled NaN and stripped whitespace
+2026-01-12 12:51:53,038 - INFO - Cleaned director - filled NaN and stripped whitespace
+2026-01-12 12:51:53,095 - INFO - Performing data quality validation...
+2026-01-12 12:51:53,095 - WARNING - Unusually long runtime detected: 338.0 minutes
+2026-01-12 12:51:53,095 - INFO - Data validation complete

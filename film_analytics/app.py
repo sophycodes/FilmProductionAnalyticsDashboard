@@ -6,6 +6,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
+import os
 
 from utils.financial import create_budget_revenue_scatter_with_roi_analysis
 from utils.location import calculate_marketshare, create_location_heatmap, create_market_share_pie, location_production_dashboard
@@ -660,3 +661,5 @@ def update_network_data(n_clicks, max_directors, max_companies):
 # Run the app
 if __name__ == '__main__':
     app.run(debug=True)
+    port = int(os.environ.get('PORT', 8050))
+    app.run_server(debug=False, host='0.0.0.0', port=port)

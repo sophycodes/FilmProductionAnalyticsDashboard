@@ -30,6 +30,7 @@ app = dash.Dash(__name__,
                 external_stylesheets=[dbc.themes.BOOTSTRAP],
                 suppress_callback_exceptions=True)  # Add this parameter
 app.title = "Film Industry Analytics Dashboard"
+server = app.server
 
 # Define the tab layout
 app.layout = dbc.Container([

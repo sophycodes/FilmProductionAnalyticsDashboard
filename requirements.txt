@@ -1,0 +1,17 @@
+# Core Dependencies
+dash==2.14.2
+plotly==5.18.0
+pandas==2.1.4
+numpy==1.26.2
+
+# Network Analysis
+networkx==3.2.1
+
+# Web Server (REQUIRED for Render)
+gunicorn==21.2.0
+
+# Dashboard Components
+dash-bootstrap-components==1.5.0
+
+# Additional Utilities
+python-dateutil==2.8.2

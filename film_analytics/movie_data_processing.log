@@ -79,3 +79,18 @@
 2026-01-12 12:51:53,095 - INFO - Performing data quality validation...
 2026-01-12 12:51:53,095 - WARNING - Unusually long runtime detected: 338.0 minutes
 2026-01-12 12:51:53,095 - INFO - Data validation complete
+2026-01-13 10:35:36,378 - INFO - Converted budget to numeric (with NaN values)
+2026-01-13 10:35:36,379 - INFO - Converted revenue to numeric (with NaN values)
+2026-01-13 10:35:36,379 - INFO - Converted vote_count to numeric (with NaN values)
+2026-01-13 10:35:36,379 - INFO - Converted popularity to float64 (with NaN values)
+2026-01-13 10:35:36,379 - INFO - Converted runtime to float64 (with NaN values)
+2026-01-13 10:35:36,379 - INFO - Converted vote_average to float64 (with NaN values)
+2026-01-13 10:35:36,381 - INFO - Converted release_date to datetime
+2026-01-13 10:35:36,386 - INFO - Cleaned original_title - filled NaN and stripped whitespace
+2026-01-13 10:35:36,390 - INFO - Cleaned title - filled NaN and stripped whitespace
+2026-01-13 10:35:36,392 - INFO - Cleaned original_language - filled NaN and stripped whitespace
+2026-01-13 10:35:36,394 - INFO - Cleaned status - filled NaN and stripped whitespace
+2026-01-13 10:35:36,398 - INFO - Cleaned director - filled NaN and stripped whitespace
+2026-01-13 10:35:36,453 - INFO - Performing data quality validation...
+2026-01-13 10:35:36,454 - WARNING - Unusually long runtime detected: 338.0 minutes
+2026-01-13 10:35:36,454 - INFO - Data validation complete

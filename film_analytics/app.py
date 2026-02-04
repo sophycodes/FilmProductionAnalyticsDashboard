@@ -16,12 +16,19 @@ from utils.director import create_director_figure, director_company_network, cre
 
 PLOT_WIDTH = 1200  # Global constant for plot widths
 
-# Load pre-processed dataset
+# Get the absolute path to the directory containing app.py
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Build the path to your data file
+data_path = os.path.join(current_dir, 'data', 'processed_movies.pkl')
+
+# Load processed data
 try:
-    df_clean = pd.read_pickle('../data/processed_movies.pkl')
+    df_clean = pd.read_pickle(data_path)  # Also note: should be pd, not __pd__
     print(f"Loaded {len(df_clean)} processed records")
 except FileNotFoundError:
-    print("Processed data not found. Please run process_data.py first!")
+    print(f"Processed data not found at {data_path}")
+    print("Please run process_data.py first!")
     exit(1)
 
 # Initialize the Dash app
@@ -658,6 +665,10 @@ def update_network_data(n_clicks, max_directors, max_companies):
 
 # Run the app
 if __name__ == '__main__':
-    app.run(debug=True, use_reloader=False)
-    # port = int(os.environ.get('PORT', 8050))
-    # app.run(debug=False, host='0.0.0.0', port=port)
+    
+    #to run locally uncomment
+    #app.run(debug=True, use_reloader=False)
+    
+    #to deploy on server uncomment
+    port = int(os.environ.get('PORT', 8050))
+    app.run_server(debug=False, host='0.0.0.0', port=port)

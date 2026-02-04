@@ -13,18 +13,16 @@ from utils.location import calculate_marketshare, create_location_heatmap, creat
 from utils.time_date import create_date_heatmap, create_runtime_plot
 from utils.genre import prepare_genre_metrics, create_genre_figure
 from utils.director import create_director_figure, director_company_network, create_network_figure, create_enhanced_network_figure
-from utils.data_processing import process_movie_data
 
 PLOT_WIDTH = 1200  # Global constant for plot widths
 
-# Load dataset
+# Load pre-processed dataset
 try:
-    df = pd.read_csv('/Users/sophyfigaroa/Documents/Pomona College/Spring 2025/CS180_DataVisualization/Final Project Film Production Analytics/data/movie_dataset.csv')
-    df_clean = process_movie_data(df)
-    print(f"Loaded dataset with {len(df_clean)} records")
+    df_clean = pd.read_pickle('../data/processed_movies.pkl')
+    print(f"Loaded {len(df_clean)} processed records")
 except FileNotFoundError:
-    print("Dataset not found. Please check the file path.")
-    # Create a sample dataset or exit
+    print("Processed data not found. Please run process_data.py first!")
+    exit(1)
 
 # Initialize the Dash app
 app = dash.Dash(__name__, 
@@ -660,6 +658,6 @@ def update_network_data(n_clicks, max_directors, max_companies):
 
 # Run the app
 if __name__ == '__main__':
-    app.run(debug=True)
-    port = int(os.environ.get('PORT', 8050))
-    app.run_server(debug=False, host='0.0.0.0', port=port)
+    app.run(debug=True, use_reloader=False)
+    # port = int(os.environ.get('PORT', 8050))
+    # app.run(debug=False, host='0.0.0.0', port=port)

@@ -12,14 +12,35 @@ The global film industry is a competitive landscape where success is influenced 
 
 However, the abundance and complexity of film industry data—ranging from box office performance, runtime, and cast collaborations to genre trends and global shooting locations—pose significant barriers to entry for aspiring movie studios. 
 
-**This project seeks to:**
-- Investigate the determinants of a successful film production studio
-- Analyze the current state of the film industry
-- Apply data visualization techniques to a comprehensive dataset
-- Provide data-driven insights for strategic decision-making
+---
+## Dashboard Features
+
+This interactive Dash application provides six comprehensive analytical tabs:
+
+### 📊 Financial Analysis
+- **Movie Budget vs. Revenue Scatter Plot** - Interactive visualization categorizing films by success level (Loss, Break Even, Success) with log-scale axes for better data distribution
+- **Average ROI by Budget Range** - Bar chart analyzing return on investment across different budget brackets (0-10M through 200M+)
+
+### 🌍 Location Analysis
+- **Global Film Production Heatmap** - Choropleth map displaying film production distribution by country
+- **Country Market Share by Revenue** - Donut chart showing top film-producing countries and their market share
+
+### 📅 Time Analysis
+- **Release Day Heatmap** - Interactive heatmap showing optimal release timing by month and day of week, with dropdown to view different metrics (Revenue, Profit, ROI, Movie Count)
+- **Runtime Trends by Genre** - Line chart tracking average movie runtime over time with genre filtering capability
+
+### 🎬 Genre Analysis
+- **Genre Ratings Bar Chart** - Sortable horizontal bar chart displaying top genres by average rating, revenue, or budget
+
+### 🎥 Director Analysis
+- **Top Directors by Metrics** - Sortable horizontal bar chart showcasing top 20 directors ranked by average rating, revenue, or budget
+
+### 🔗 Network Analysis
+- **Director-Studio Collaboration Network** - Interactive network graph visualizing relationships between directors and production companies, with customizable node counts and hover-to-highlight connections
+
+> **Note:** All visualizations feature interactive elements including hover tooltips, filtering options, and responsive design for optimal viewing across devices.
 
 ---
-
 
 ## Tech Stack
 

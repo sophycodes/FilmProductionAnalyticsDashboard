@@ -1,96 +1,17 @@
-2025-05-27 15:54:54,874 - INFO - Converted budget to numeric (with NaN values)
-2025-05-27 15:54:54,874 - INFO - Converted revenue to numeric (with NaN values)
-2025-05-27 15:54:54,874 - INFO - Converted vote_count to numeric (with NaN values)
-2025-05-27 15:54:54,875 - INFO - Converted popularity to float64 (with NaN values)
-2025-05-27 15:54:54,875 - INFO - Converted runtime to float64 (with NaN values)
-2025-05-27 15:54:54,875 - INFO - Converted vote_average to float64 (with NaN values)
-2025-05-27 15:54:54,888 - INFO - Converted release_date to datetime
-2025-05-27 15:54:54,896 - INFO - Cleaned original_title - filled NaN and stripped whitespace
-2025-05-27 15:54:54,901 - INFO - Cleaned title - filled NaN and stripped whitespace
-2025-05-27 15:54:54,904 - INFO - Cleaned original_language - filled NaN and stripped whitespace
-2025-05-27 15:54:54,908 - INFO - Cleaned status - filled NaN and stripped whitespace
-2025-05-27 15:54:54,913 - INFO - Cleaned director - filled NaN and stripped whitespace
-2025-05-27 15:54:54,989 - INFO - Performing data quality validation...
-2025-05-27 15:54:54,989 - WARNING - Unusually long runtime detected: 338.0 minutes
-2025-05-27 15:54:54,990 - INFO - Data validation complete
-2025-05-27 15:54:55,027 - INFO - Dash is running on http://127.0.0.1:8050/
+2026-02-03 18:41:09,395 - INFO - Converted budget to numeric (with NaN values)
+2026-02-03 18:41:09,396 - INFO - Converted revenue to numeric (with NaN values)
+2026-02-03 18:41:09,396 - INFO - Converted vote_count to numeric (with NaN values)
+2026-02-03 18:41:09,396 - INFO - Converted popularity to float64 (with NaN values)
+2026-02-03 18:41:09,396 - INFO - Converted runtime to float64 (with NaN values)
+2026-02-03 18:41:09,396 - INFO - Converted vote_average to float64 (with NaN values)
+2026-02-03 18:41:09,398 - INFO - Converted release_date to datetime
+2026-02-03 18:41:09,403 - INFO - Cleaned original_title - filled NaN and stripped whitespace
+2026-02-03 18:41:09,408 - INFO - Cleaned title - filled NaN and stripped whitespace
+2026-02-03 18:41:09,410 - INFO - Cleaned original_language - filled NaN and stripped whitespace
+2026-02-03 18:41:09,412 - INFO - Cleaned status - filled NaN and stripped whitespace
+2026-02-03 18:41:09,417 - INFO - Cleaned director - filled NaN and stripped whitespace
+2026-02-03 18:41:09,477 - INFO - Performing data quality validation...
+2026-02-03 18:41:09,477 - WARNING - Unusually long runtime detected: 338.0 minutes
+2026-02-03 18:41:09,478 - INFO - Data validation complete
+2026-02-03 18:42:04,096 - INFO - Dash is running on http://127.0.0.1:8050/
 
-2025-05-27 15:54:56,390 - INFO - Converted budget to numeric (with NaN values)
-2025-05-27 15:54:56,390 - INFO - Converted revenue to numeric (with NaN values)
-2025-05-27 15:54:56,390 - INFO - Converted vote_count to numeric (with NaN values)
-2025-05-27 15:54:56,390 - INFO - Converted popularity to float64 (with NaN values)
-2025-05-27 15:54:56,390 - INFO - Converted runtime to float64 (with NaN values)
-2025-05-27 15:54:56,390 - INFO - Converted vote_average to float64 (with NaN values)
-2025-05-27 15:54:56,392 - INFO - Converted release_date to datetime
-2025-05-27 15:54:56,397 - INFO - Cleaned original_title - filled NaN and stripped whitespace
-2025-05-27 15:54:56,402 - INFO - Cleaned title - filled NaN and stripped whitespace
-2025-05-27 15:54:56,405 - INFO - Cleaned original_language - filled NaN and stripped whitespace
-2025-05-27 15:54:56,408 - INFO - Cleaned status - filled NaN and stripped whitespace
-2025-05-27 15:54:56,412 - INFO - Cleaned director - filled NaN and stripped whitespace
-2025-05-27 15:54:56,481 - INFO - Performing data quality validation...
-2025-05-27 15:54:56,482 - WARNING - Unusually long runtime detected: 338.0 minutes
-2025-05-27 15:54:56,482 - INFO - Data validation complete
-2026-01-12 10:19:42,297 - INFO - Dash is running on http://127.0.0.1:8050/
-
-2026-01-12 11:20:27,512 - INFO - Converted budget to numeric (with NaN values)
-2026-01-12 11:20:27,512 - INFO - Converted revenue to numeric (with NaN values)
-2026-01-12 11:20:27,512 - INFO - Converted vote_count to numeric (with NaN values)
-2026-01-12 11:20:27,512 - INFO - Converted popularity to float64 (with NaN values)
-2026-01-12 11:20:27,512 - INFO - Converted runtime to float64 (with NaN values)
-2026-01-12 11:20:27,512 - INFO - Converted vote_average to float64 (with NaN values)
-2026-01-12 11:20:27,516 - INFO - Converted release_date to datetime
-2026-01-12 11:20:27,520 - INFO - Cleaned original_title - filled NaN and stripped whitespace
-2026-01-12 11:20:27,525 - INFO - Cleaned title - filled NaN and stripped whitespace
-2026-01-12 11:20:27,527 - INFO - Cleaned original_language - filled NaN and stripped whitespace
-2026-01-12 11:20:27,530 - INFO - Cleaned status - filled NaN and stripped whitespace
-2026-01-12 11:20:27,534 - INFO - Cleaned director - filled NaN and stripped whitespace
-2026-01-12 11:20:27,596 - INFO - Performing data quality validation...
-2026-01-12 11:20:27,597 - WARNING - Unusually long runtime detected: 338.0 minutes
-2026-01-12 11:20:27,597 - INFO - Data validation complete
-2026-01-12 12:51:51,494 - INFO - Converted budget to numeric (with NaN values)
-2026-01-12 12:51:51,495 - INFO - Converted revenue to numeric (with NaN values)
-2026-01-12 12:51:51,495 - INFO - Converted vote_count to numeric (with NaN values)
-2026-01-12 12:51:51,495 - INFO - Converted popularity to float64 (with NaN values)
-2026-01-12 12:51:51,495 - INFO - Converted runtime to float64 (with NaN values)
-2026-01-12 12:51:51,495 - INFO - Converted vote_average to float64 (with NaN values)
-2026-01-12 12:51:51,498 - INFO - Converted release_date to datetime
-2026-01-12 12:51:51,503 - INFO - Cleaned original_title - filled NaN and stripped whitespace
-2026-01-12 12:51:51,507 - INFO - Cleaned title - filled NaN and stripped whitespace
-2026-01-12 12:51:51,509 - INFO - Cleaned original_language - filled NaN and stripped whitespace
-2026-01-12 12:51:51,512 - INFO - Cleaned status - filled NaN and stripped whitespace
-2026-01-12 12:51:51,516 - INFO - Cleaned director - filled NaN and stripped whitespace
-2026-01-12 12:51:51,578 - INFO - Performing data quality validation...
-2026-01-12 12:51:51,578 - WARNING - Unusually long runtime detected: 338.0 minutes
-2026-01-12 12:51:51,578 - INFO - Data validation complete
-2026-01-12 12:51:51,615 - INFO - Dash is running on http://127.0.0.1:8050/
-
-2026-01-12 12:51:53,020 - INFO - Converted budget to numeric (with NaN values)
-2026-01-12 12:51:53,021 - INFO - Converted revenue to numeric (with NaN values)
-2026-01-12 12:51:53,021 - INFO - Converted vote_count to numeric (with NaN values)
-2026-01-12 12:51:53,021 - INFO - Converted popularity to float64 (with NaN values)
-2026-01-12 12:51:53,021 - INFO - Converted runtime to float64 (with NaN values)
-2026-01-12 12:51:53,021 - INFO - Converted vote_average to float64 (with NaN values)
-2026-01-12 12:51:53,022 - INFO - Converted release_date to datetime
-2026-01-12 12:51:53,026 - INFO - Cleaned original_title - filled NaN and stripped whitespace
-2026-01-12 12:51:53,030 - INFO - Cleaned title - filled NaN and stripped whitespace
-2026-01-12 12:51:53,032 - INFO - Cleaned original_language - filled NaN and stripped whitespace
-2026-01-12 12:51:53,034 - INFO - Cleaned status - filled NaN and stripped whitespace
-2026-01-12 12:51:53,038 - INFO - Cleaned director - filled NaN and stripped whitespace
-2026-01-12 12:51:53,095 - INFO - Performing data quality validation...
-2026-01-12 12:51:53,095 - WARNING - Unusually long runtime detected: 338.0 minutes
-2026-01-12 12:51:53,095 - INFO - Data validation complete
-2026-01-13 10:35:36,378 - INFO - Converted budget to numeric (with NaN values)
-2026-01-13 10:35:36,379 - INFO - Converted revenue to numeric (with NaN values)
-2026-01-13 10:35:36,379 - INFO - Converted vote_count to numeric (with NaN values)
-2026-01-13 10:35:36,379 - INFO - Converted popularity to float64 (with NaN values)
-2026-01-13 10:35:36,379 - INFO - Converted runtime to float64 (with NaN values)
-2026-01-13 10:35:36,379 - INFO - Converted vote_average to float64 (with NaN values)
-2026-01-13 10:35:36,381 - INFO - Converted release_date to datetime
-2026-01-13 10:35:36,386 - INFO - Cleaned original_title - filled NaN and stripped whitespace
-2026-01-13 10:35:36,390 - INFO - Cleaned title - filled NaN and stripped whitespace
-2026-01-13 10:35:36,392 - INFO - Cleaned original_language - filled NaN and stripped whitespace
-2026-01-13 10:35:36,394 - INFO - Cleaned status - filled NaN and stripped whitespace
-2026-01-13 10:35:36,398 - INFO - Cleaned director - filled NaN and stripped whitespace
-2026-01-13 10:35:36,453 - INFO - Performing data quality validation...
-2026-01-13 10:35:36,454 - WARNING - Unusually long runtime detected: 338.0 minutes
-2026-01-13 10:35:36,454 - INFO - Data validation complete
